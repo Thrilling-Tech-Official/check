@@ -83,7 +83,7 @@ class _ImageScreenState extends State<ImageScreen> {
         itemBuilder: (context, index) {
           return Image.file(
             _imageFiles[index],
-            fit: BoxFit.cover,
+            fit: BoxFit.fill,
           );
         },
       ),
